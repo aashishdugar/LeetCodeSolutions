@@ -7,7 +7,7 @@ As said above, these are personally solved, so while I haven't solved them all, 
 * Link - https://leetcode.com/problemset/all/
 
 The format of the solutions file in the directory is - 
-    <i>/LeetCodeSolutions/{Problem Number} - {Name of Problem}(difficulty) - {language of solution}</i>
+*    <i>/LeetCodeSolutions/{Problem Number} - {Name of Problem}(difficulty) - {language of solution}</i>
 
 The solutions here, once the question is read, are quite simple and self explanatory so I haven't included comments in most of the code.
 
