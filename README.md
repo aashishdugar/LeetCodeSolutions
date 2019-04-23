@@ -11,4 +11,4 @@ The format of the solutions file in the directory is -
 
 The solutions here, once the question is read, are quite simple and self explanatory so I haven't included comments in most of the code.
 
-<b>NOTE</b> - This repo is an always evolving repo, so if there any improvements to run-time/any comments to clarify something/any mistakes, do let me know and I'll be happy to make the changes!
+<b>NOTE</b> - This repo is always evolving, so if there any improvements to run-time/any comments to clarify something/any mistakes, do let me know and I'll be happy to make the changes!
