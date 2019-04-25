@@ -12,8 +12,8 @@ The format of the solutions file in the directory is -
 The solutions here, once the question is read, are quite simple and self explanatory so I haven't included comments in most of the code.
 
 #### Statistics - 
-* <i>Solved</i> - 44/1028 (varies as I'm solving it in 2-3 Programming Languages)
-* <i>Time Spent on LeetCode</i> - 62 hours
+* <i>Solved</i> - 47/1028 (varies as I'm solving it in 2-3 Programming Languages)
+* <i>Time Spent on LeetCode</i> - 63 hours
 * <i>Acceptance Rate on LeetCode</i>- 43%
 * <i>Last Updated Repo</i> - 25th April 2019
 
