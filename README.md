@@ -13,8 +13,8 @@ The solutions here, once the question is read, are quite simple and self explana
 
 #### Statistics - 
 * <i>Solved</i> - 44/1028 (varies as I'm solving it in 2-3 Programming Languages)
-* <i>Time Spent</i> - 62 hours
-* <i>Acceptance Rate </i>- 43%
+* <i>Time Spent on LeetCode</i> - 62 hours
+* <i>Acceptance Rate on LeetCode</i>- 43%
 * <i>Last Updated Repo</i> - 25th April 2019
 
 {<b>NOTE</b> - This repo is always evolving, so if there any improvements to run-time/any comments to clarify something/any mistakes, do let me know and I'll be happy to make the changes!}
