@@ -12,10 +12,10 @@ The format of the solutions file in the directory is -
 The solutions here, once the question is read, are quite simple and self explanatory so I haven't included comments in most of the code.
 
 #### Statistics - 
-* <i>Solved</i> - 47/1028 (varies as I'm solving it in 2-3 Programming Languages)
-* <i>Time Spent on LeetCode</i> - 63 hours
-* <i>Acceptance Rate on LeetCode</i>- 43%
-* <i>Last Updated Repo</i> - 25th April 2019
+* <i>Solved</i> - 51/1028 (varies as I'm solving it in 2-3 Programming Languages)
+* <i>Time Spent on LeetCode</i> - 64 hours
+* <i>Acceptance Rate on LeetCode</i>- 44%
+* <i>Last Updated Repo</i> - 30th April 2019
 
 {<b>NOTE</b> - This repo is always evolving, so if there any improvements to run-time/any comments to clarify something/any mistakes, do let me know and I'll be happy to make the changes!}
 
