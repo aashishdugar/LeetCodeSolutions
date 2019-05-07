@@ -2,7 +2,7 @@
 A compilation of all Java/Python solutions to all the LeetCode problems I have personally solved. These solution were optimal or near optimal(i.e in the upper 95% of the solutions) at the time of solving. However as solutions improve and evolve, plus the run-time is dependent on the the freedom of the server w.r.t requests to compile, the result may not quite be the same for you. Not much variation however!
 
 I just thought it would be a great way to see all the solutions at once if a question is in your mind and you dont want to access the site constantly. Just a simple consolidation of them.
-As said above, these are personally solved, so while I haven't solved them all, I'll keep updating this as I finish more.
+As said above, these are personally solved, so while I haven't solved all the LeetCode questions, I'll keep updating this as I finish more.
 
 * Link - https://leetcode.com/problemset/all/
 
