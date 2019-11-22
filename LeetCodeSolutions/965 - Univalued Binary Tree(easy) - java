@@ -1,0 +1,28 @@
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode(int x) { val = x; }
+ * }
+ */
+class Solution {
+    List<Integer> res = new ArrayList<>();
+    public boolean isUnivalTree(TreeNode root) {
+        checkTree(root);
+        for(Integer x:res){
+            if(x != res.get(0)) return false;
+        }
+        return true;
+    }
+    
+    public void checkTree(TreeNode root){
+        if(root != null) {
+            res.add(root.val);
+            checkTree(root.left);
+            checkTree(root.right);
+        }
+    }
+    
+}

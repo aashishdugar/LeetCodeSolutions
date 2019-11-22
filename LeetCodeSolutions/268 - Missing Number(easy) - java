@@ -1,0 +1,12 @@
+import java.util.Arrays;
+class Solution {
+    public int missingNumber(int[] nums) {
+        int nLength = nums.length;
+        int sum1 = 0;
+        int sum2 = ((nLength)*(nLength+1))/2;
+        for(Integer x:nums) {
+            sum1 = sum1 + x;
+        }
+        return(sum2 - sum1);
+    }
+}

@@ -1,0 +1,33 @@
+class Solution {
+    int k = 0;
+    public int[] relativeSortArray(int[] arr1, int[] arr2) {
+        boolean sorted = false;
+        for(int x:arr2){
+            for(int i = 0;i<arr1.length;i++){
+                if (arr1[i] == x) swapper(arr1,i);
+            }
+        }
+        //bubble sort on final elements
+        while(!sorted){
+            sorted = true;
+            for(int i=k;i<arr1.length-1;i++){
+                if(arr1[i]>arr1[i+1]){
+                    int temp = arr1[i];
+                    arr1[i] = arr1[i+1];
+                    arr1[i+1] = temp;
+                    sorted = false;
+                }
+            }
+        }
+        
+        return arr1; 
+    }
+    
+    public void swapper(int[] arr,int i){
+        int temp = arr[i];
+        arr[i] = arr[k];
+        arr[k] = temp;
+        k++;
+    }
+
+}
