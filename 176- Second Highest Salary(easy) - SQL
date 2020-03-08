@@ -1,4 +1,0 @@
-# Write your MySQL query statement below
-SELECT max(Salary) as SecondHighestSalary
-FROM employee
-WHERE employee.Salary<(SELECT max(Salary) from employee);
