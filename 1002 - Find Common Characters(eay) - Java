@@ -1,0 +1,27 @@
+class Solution {
+    public List<String> commonChars(String[] A) {
+        List<String> res = new ArrayList<>();
+        char[][] table = new char[A.length][26];
+        int i = 0;
+        for(String x: A){
+            char[] temp = x.toCharArray();
+            for(char y: temp){
+                table[i][y - 'a']++;
+            }
+            i++;
+        }
+        for(int j = 0;j<26;j++){
+            int minFreq = Integer.MAX_VALUE;
+            for(int k = 0; k< A.length; k++){
+                minFreq = Math.min(minFreq,table[k][j]);
+                
+            }
+            while(minFreq > 0){
+            res.add(String.valueOf((char)('a' + j)));
+            minFreq--;
+            }
+        }
+        
+        return res;    
+    }
+} 
